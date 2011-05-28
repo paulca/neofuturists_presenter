@@ -1,0 +1,56 @@
+/* 
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+  You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+
+body { margin: 0;}
+
+a { margin: 0; padding: 0; }
+div.image-frame {
+  float: left;
+  width: 192px;
+  height: 180px;
+}
+div.image-frame a {
+  display: block;
+  width: 192px;
+  height: 180px;
+  background-color: #FFF;
+  opacity: 0.6;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity:0.4;
+}
+
+img.on {
+  width: 1920px;
+  height: 1080px;
+  opacity:1;
+}
+
+img.done {
+  opacity: 1;
+}
+
+div#frame {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 1920px;
+  height: 1080px;
+}
+
+.hidden { display: none; }

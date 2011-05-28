@@ -1,0 +1,18 @@
+<%- @pictures.each_with_index do |picture, index| -%>
+  <div class="image-frame" data-image="<%= picture[:thumb] %>">
+    <%= link_to "/assets/#{picture[:picture]}", 'data-show' => picture[:id],
+                :class => 'image' do %>
+      <span class="index">
+        <%= index + 1 %>
+      </span>
+    <%- end -%>
+  </div>
+<%- end -%>
+
+<div id="frame">
+  <%- @pictures.each do |picture| -%>
+    <%= link_to "#", :class => 'hidden', :id => picture[:id] do %>
+      <%= image_tag picture[:picture] -%>
+    <%- end -%>
+  <%- end -%>
+</div>
