@@ -8,6 +8,10 @@ I also wanted the images to be completely random, and so they are randomly sorte
 
 It was also a handy way to experiment with the asset pipelining features of Rails 3.1 and coffeescript. Yay!
 
+## Example ##
+
+My [Euruko Slides](http://paulca-euruko2011.heroku.com/)
+
 ## Installation ##
 
     git clone git@github.com:paulca/neofuturists_presenter.git
