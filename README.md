@@ -28,3 +28,5 @@ Add your full screen slides to `app/assets/images/pictures` and thumbnails to `a
 ## Presenting ##
 
 I used [Plainview](http://www.barbariangroup.com/software/plainview) for presenting the slides full screen.
+
+<3<3<3
