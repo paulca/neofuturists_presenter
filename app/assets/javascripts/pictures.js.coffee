@@ -4,7 +4,7 @@
 
 jQuery ->
   
-  $('div[data-image]').each (item)->
+  $('div[data-image]').each (item) ->
     item = $(item)
     $(@).css('background-image', "url('/assets/" + $(@).attr('data-image') + "')")
 

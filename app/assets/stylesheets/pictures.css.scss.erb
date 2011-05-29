@@ -4,18 +4,24 @@
   You can use Sass (SCSS) here: http://sass-lang.com/
 */
 
+$screen_width: 1920px;
+$screen_height: 1080px;
+
+$thumb_width: 192px;
+$thumb_height: 180px;
+
 body { margin: 0;}
 
 a { margin: 0; padding: 0; }
 div.image-frame {
   float: left;
-  width: 192px;
-  height: 180px;
+  width: $thumb_width;
+  height: $thumb_height;
 }
 div.image-frame a {
   display: block;
-  width: 192px;
-  height: 180px;
+  width: $thumb_width;
+  height: $thumb_height;
   background-color: #FFF;
   opacity: 0.6;
   font-family: Helvetica, sans-serif;
@@ -24,7 +30,13 @@ div.image-frame a {
   font-weight: bold;
   font-size: 4em;
   text-align: center;
+}
+
+span.index { 
   padding-top: 1em;
+  width: $thumb_width;
+  height: $thumb_height;
+  display: block;
 }
 
 img {
@@ -35,8 +47,8 @@ img {
 }
 
 img.on {
-  width: 1920px;
-  height: 1080px;
+  width: $screen_width;
+  height: $screen_height;
   opacity:1;
 }
 
@@ -46,11 +58,11 @@ img.done {
 
 div#frame {
   position: absolute;
-  left: 0;
+  left: 103;
   top: 0;
   display: none;
-  width: 1920px;
-  height: 1080px;
+  width: $screen_width;
+  height: $screen_height;
 }
 
 .hidden { display: none; }
