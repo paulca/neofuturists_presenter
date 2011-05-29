@@ -1,6 +1,6 @@
 # PicturePresenter #
 
-As part of my Euruko 2011 keynote, I wanted to share a lot of stories, but I couldn't decide which ones to choose; I decided to let the audience choose. This was inspired by seeing a [NeoFuturists](http://neofuturists.org/) show where the audience would call out numbers and the troupe would perform a skit that corresponded to the number.
+As part of my Euruko 2011 keynote, I wanted to share a lot of stories, but I couldn't decide which ones to choose; I decided to let the audience choose. This was inspired by a [NeoFuturists](http://neofuturists.org/) show where the audience would call out numbers and the troupe would perform a skit that corresponded to the number.
 
 I needed an interface that would show thumbnail previews of slides, overlayed with numbers. When the number is clicked, it fills the screen, and when clicked again, it returns as a thumbnail, but the number has disappeared.
 
